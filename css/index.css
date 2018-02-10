@@ -1,0 +1,61 @@
+/*
+    variables.less  公共参数
+ */
+/*
+  mixins 混淆函数文件入口
+*/
+/*强制换行*/
+/*禁止换行*/
+#topContainer .content {
+  -webkit-transition: opacity 0.4s ease;
+     -moz-transition: opacity 0.4s ease;
+          transition: opacity 0.4s ease;
+}
+#topContainer .content .img img {
+  -webkit-transition: opacity 0.4s ease;
+     -moz-transition: opacity 0.4s ease;
+          transition: opacity 0.4s ease;
+  width: 100%;
+}
+#topContainer .content dl {
+  padding: 30px 30px 0 30px;
+  min-height: 250px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#topContainer .content dl dt {
+  font-size: 2.4rem;
+  line-height: 150%;
+  margin-bottom: 15px;
+}
+#topContainer .content dl dd {
+  font-size: 1.6rem;
+  color: #666;
+}
+#topContainer a {
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #topContainer .content dl {
+    padding: 30px 30px 0 30px;
+  }
+  #topContainer .content dl dt {
+    font-size: 2.4rem;
+  }
+  #topContainer .content dl dd {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  #topContainer .content dl {
+    padding: 25px;
+    min-height: 100px;
+  }
+  #topContainer .content dl dt {
+    font-size: 1.3rem;
+  }
+  #topContainer .content dl dd {
+    font-size: 0.9rem;
+  }
+}
